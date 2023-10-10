@@ -1,0 +1,16 @@
+#include <stdio.h>
+#define _CRT_SECURE_NO_WARNINGS
+
+float function(float x)
+{
+    float y=x/2.5;
+    return (y);
+}
+
+int main()
+{
+    float a, r;
+    scanf("%f", &a);
+    r=function(a);
+    printf("r=%f\n", r);
+}
